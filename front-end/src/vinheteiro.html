@@ -1,0 +1,140 @@
+<!-- ========================= -->
+<!-- INDEX.HTML -->
+<!-- ========================= -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lord Vinheteiro</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Montserrat', sans-serif;
+      background:#111;
+      color:white;
+    }
+
+    nav{
+      width:100%;
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      background:#000;
+      position:fixed;
+      top:0;
+      z-index:999;
+    }
+
+    nav h2{
+      font-size:1.5rem;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+      transition:0.3s;
+      font-weight:600;
+    }
+
+    nav a:hover{
+      color:#c9c9c9;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url('vinheteiro.jpg')
+      center/cover;
+    }
+
+    h1{
+      font-size:5rem;
+      font-weight:900;
+    }
+
+    p{
+      margin-top:20px;
+      font-size:1.2rem;
+      color:#ddd;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      padding:15px 35px;
+      background:white;
+      color:black;
+      text-decoration:none;
+      border-radius:50px;
+      font-weight:700;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.08);
+    }
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:3rem;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Lord Vinheteiro</h2>
+
+    <div>
+      <a href="index.html">Início</a>
+      <a href="shows.html">Shows</a>
+    </div>
+  </nav>
+
+  <header>
+
+    <div>
+
+      <h1>Lord Vinheteiro</h1>
+
+      <p>
+        Pianista, youtuber e referência em música clássica na internet.
+      </p>
+
+      <a href="shows.html" class="btn">
+        Ver Próximos Shows
+      </a>
+
+    </div>
+
+  </header>
+
+</body>
+</html>
